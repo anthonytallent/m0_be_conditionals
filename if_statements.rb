@@ -46,7 +46,7 @@ num_quarters = 0
 puts "I have enough money for a gumball"
   else
 puts "I don't have enough money for a gumball"
-end 
+end
 
 
 #####################
@@ -65,3 +65,9 @@ end
 
 cups_of_flour = 1
 has_sauce = true
+
+if cups_of_flour >= 2 && has_sauce == true
+  puts "I can make pizza"
+else
+  puts "I cannot make pizza"
+end
