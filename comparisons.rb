@@ -99,6 +99,6 @@ loves_to_play && loves_dog_park
 loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-loves_to_play && age < 1
+loves_to_play && age <= 1
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
